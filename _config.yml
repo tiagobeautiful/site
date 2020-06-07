@@ -39,7 +39,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 
 baseurl: "/site" # the subpath of your site, e.g. /blog
 url: "" #"http://tiagobeautiful.com" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  tiagobeautiful
+#github_username:  tiagobeautiful
 instagram_path: https://www.instagram.com/tiagobeautiful
 linkedin_path: https://www.linkedin.com/in/tiago-lino-bello-6795a3120/
 github_path: https://github.com/tiagobeautiful
