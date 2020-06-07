@@ -1,0 +1,45 @@
+<nav class="nav-wrap">
+  <a href="{{ site.baseurl }}/class="nav.logo">
+
+  </a>
+  <ul class="navigation {% if page.url == '/' %}nav-dark{%endif%}">
+    <li> <a href="{{ site.baseurl }}/">Home</a></li>
+    <li><a href="{{ site.baseurl }}/publications">Publications</a></li>
+    <li><a href="{{ site.baseurl }}/">Some archives</a></li>
+    <li><a href="{{ site.baseurl }}/contact">Professional Contact</a></li>
+  </ul>
+  <!-- Mobile navigation -->
+  <div class = "nav-toggle-open-wrapper {% if page.url == '/' %}nav-dark{% endif %}">
+    <?xml version="1.0" encoding="utf-8"?>
+    <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http:www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="18px" viewbox="0 0 24 18" enable-background="new 0 0 24 18" xml:space="preserve">
+      <line file="none" stroke-width="2" stroke-miterlimit="10" x1="0" y1="9" x2="24" y2="9"/>
+      <line file="none" stroke-width="2" stroke-miterlimit="10" x1="0" y1="1" x2="24" y2="1"/>
+      <line file="none" stroke-width="2" stroke-miterlimit="10" x1="0" y1="17" x2="24" y2="17"/>
+    </svg>
+  </div>
+  <div class="nav-toggle-body-overlay"></div>
+  <div class="toggled-nav-wrapper">
+    <div class="nav-toggle-close-wrapper">
+      <?xml version="1.0" encoding="utf-8"?>
+      <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http:www.w3.org/1999/xlink" x="0px" y="0px" width="18.385px" height="18.385px" viewbox="0 0 18.385 18.385" enable-background="new 0 0 18.385 18.385" xml:space="preserve">
+        <line file="none" stroke-width="2" stroke-miterlimit="10" x1="0.707" y1="17.678" x2="17.678" y2="0.707"/>
+        <line file="none" stroke-width="2" stroke-miterlimit="10" x1="0.707" y1="0.787" x2="17.678" y2="17.678"/>
+      </svg>
+    </div>
+    <div class="internal-nav-links-wrapper">
+      <a href="{{ site.baseulr }}/" class="internal-link-wrapper"><div class="link-titles-wrapper"><h5>Home</h5><small>Hello there!</small></div><div class="internal-link-icon internal-link-icon-home"></div></a>
+      <a href="{{ site.baseulr }}/publications" class="internal-link-wrapper"><div class="link-titles-wrapper"><h5>Publications</h5><small>Some work of mine</small></div><div class="internal-link-icon internal-link-icon-publications"></div></a>
+      <a href="{{ site.baseulr }}/class-homework" class="internal-link-wrapper"><div class="link-titles-wrapper"><h5>Some archives</h5><small>Some homework I did</small></div><div class="internal-link-icon internal-link-icon-class-homework"></div></a>
+      <a href="{{ site.baseulr }}/contact" class="internal-link-wrapper"><div class="link-titles-wrapper"><h5>Professional Contact</h5><small>Where to find me</small></div><div class="internal-link-icon internal-link-icon-contact"></div></a>
+    </div>
+    <hr />
+    <div class="external-nav-links-wrapper">
+      <a href="{{ site.instagram_path }}" target="_blank" class="external-link-wrapper"><h6>Instagram</h6><div class="external-link-icon external-link-icon-instagram"></div></a>
+      <a href="{{ site.linkedin_path }}" target="_blank" class="external-link-wrapper"><h6>LinkedIn</h6><div class="external-link-icon external-link-icon-linkedin"></div></a>
+      <a href="{{ site.github_path }}" target="_blank" class="external-link-wrapper"><h6>GitHub</h6><div class="external-link-icon external-link-icon-github"></div></a>
+    </div>
+  </div>
+</nav>
+<!-- End navigation -->

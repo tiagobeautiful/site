@@ -1,0 +1,102 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Tiago Lino Bello
+email: tiago.bello1@hotmail.com
+email_lactec: tiago.bello@lactec.org.br
+description: >- # this means to ignore newlines until "baseurl:"
+  Hello there! I'm Tiago Lino Bello, a PhD student at Numerical Methods in Engineering
+  Graduate Program (PPGMNE) from the Federal Univeristy of Paraná since 2019, under
+  the supervision of PhD Luiz Carlos Matioli. I got licensed degree in Mathematics at the State University
+  of Paraná (UNESPAR) at 2017 and a Master degree in Numerical Methods in Engineering at Federal
+  University of Paraná at 2019.
+
+  Right now, I am member of the following research groups: Grupo de Pesquisa em Matemática
+  Pura e Aplicada (UNESPAR) and LYNX Research Group.
+
+  I and very interested about topics involving optimization (OPT), operational research (OR)
+  and statistical learning (SL) methods, which are all the topics I am working right now
+  for my thesis.
+
+  If you are interested, check my CV for more =).
+
+baseurl: "tiagobeautiful" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+#github_username:  tiagobeautiful
+instagram_path: https://www.instagram.com/tiagobeautiful
+linkedin_path: https://www.linkedin.com/in/tiago-lino-bello-6795a3120/
+github_path: https://github.com/tiagobeautiful
+lactec_path: https://lactec.org.br
+ppgmne_path: http://www.prppg.ufpr.br/ppgmne/
+matioli_path: http://lattes.cnpq.br/6084324625677114
+oening_path: http://lattes.cnpq.br/3366592871800741
+tiago_lattes: http://lattes.cnpq.br/1698921535580651
+solange_path: http://lattes.cnpq.br/3254003289054368
+pericaro_path: http://lattes.cnpq.br/1238697490777079
+marcilio_path: http://lattes.cnpq.br/7819552476232601
+bessa_path: http://lattes.cnpq.br/8581128471211759
+geus_path: https://orcid.org/0000-0003-0303-3548
+igarashi_path: http://lattes.cnpq.br/8676771586561454
+sfilho_path: http://lattes.cnpq.br/7647406672886050
+
+orcid: https://orcid.org/0000-0002-1095-9587
+publons: https://publons.com/researcher/D-5136-2019/
+
+dissertacao: https://acervodigital.ufpr.br/handle/1884/60386
+sbpo_2019: https://proceedings.science/p/106939?lang=pt-br
+sbpo_2018: https://proceedings.science/p/85394
+cnmac_2016: https://proceedings.sbmac.org.br/sbmac/article/view/1641/1651
+enem_2016: http://www.sbembrasil.org.br/enem2016/anais/pdf/5742_2573_ID.pdf
+eaic_2016: http://www.fecilcam.br/eventos/index.php/eaic/iieaic/paper/viewFile/3827/1125
+
+# Build settings
+#theme: minima
+#plugins:
+#  - jekyll-feed
+permalink: pretty
+markdown: kramdown
+gems:
+  - jekyll-feed
+  - jekyll-autoprefixer
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+sass:
+  sass_dir: _sass
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

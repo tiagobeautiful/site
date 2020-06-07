@@ -1,0 +1,69 @@
+---
+layout: default
+---
+<header class="header-main" style="background-image:url('{{ site.baseurl }}/assets/img/home.jpg')">
+  <div class="overlay-light"></div>
+  {% include nav.html %}
+  <div class="home-title">
+    <h1>{{ site.title }}</h1>
+    <h3>Academic Researcher</h3>
+  </div>
+  <a href="#blurb" class="home-avatar"></a>
+</header>
+<!-- About -->
+<!-- bundle exec jekyll serve --watch --baseurl "" -->
+<div class="who-is-he" id="blurb">
+  <h2>Hello there!</h2>
+  <p> I'm Tiago, a PhD student at <a href="{{ site.ppgmne_path }}" target="_blank">Numerical Methods in Engineering
+  Graduate Program (PPGMNE)</a> from the Federal Univeristy of Paraná, Brazil, since 2019, under
+  the supervision of <a href="{{ site.matioli_path }}" target="_blank">PhD Luiz Carlos Matioli</a>.
+  I got the licensed degree in Mathematics from State University of Paraná (UNESPAR) at 2017
+  and a Master degree in Numerical Methods in Engineering from Federal University of Paraná at 2019.
+  If you are interested, check my <a href="{{ site.tiago_lattes }}" target="_blank">Lattes CV</a>
+  or my Resumed CV for more =). </p>
+</div>
+<hr />
+<!-- Recent Projects -->
+<!-- para incluir figuras, colocar em ../img/ -->
+<h2 class="recent-projects">What I've been involved...</h2>
+<div class="recent-projects-content-wrapper">
+   <div class="project-wrap">
+    <div class="project">
+      <div class="project-img project-img-one"></div>
+      <a target="_blank" class="project-text">
+        <h4>Statistical Learning and optimization</h4>
+        <p>These are the topics that I work right now in my thesis.</p>
+      </a>
+    </div>
+  </div>
+  <div class="project-wrap project-wrap-reverse">
+    <div class="project">
+      <div class="project-img project-img-two"></div>
+      <a target="_blank" class="project-text">
+        <h4>LYNX Energy Research Group</h4>
+        <p>This group aims to propose a new software to optimizing the hydrothermal operations plans in Brazil,
+          for medium-term and short-term horizon.</p>
+      </a>
+    </div>
+  </div>
+  <div class="project-wrap">
+    <div class="project">
+      <div class="project-img project-img-three"></div>
+      <a target="_blank" class="project-text">
+        <h4>Grupo de Pesquisa em Matemática e suas Aplicações</h4>
+        <p>This group aims to realize research looking for apply optimization methods at engeneering problems.</p>
+      </a>
+    </div>
+  </div>
+  <div class="project-wrap project-wrap-reverse">
+    <div class="project">
+      <div class="project-img project-img-four"></div>
+      <a target="_blank" class="project-text">
+        <h4>Programa de Iniciação de Bolsa à Docência - PIBID</h4>
+        <p>Government program to include new math teachers in school classroom during the undergraduation.</p>
+      </a>
+    </div>
+  </div>
+</div>
+<!-- Footer -->
+<hr/>

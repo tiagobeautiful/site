@@ -1,0 +1,56 @@
+footer.footer-wrapper
+  width: 100%
+  padding: 100px 20px
+  display: flex
+  flex-direction: column
+  align-items: center
+  h2
+    padding-bottom: 5px
+  p
+    line-height: 1.375em
+  .footer-social-links
+    padding-top: 0.5em
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    height: 50px
+    width: 100%
+    max-width: 250px
+    margin: 0 0 25px 0
+    .social-icon-wrap
+      transition: all 0.1s ease-in
+      display: inline-block
+      height: 50px
+      width: 50px
+      border-radius: 100%
+      overflow: hidden
+      background:
+        size: 75%
+        position: center center
+        repeat: no-repeat
+      &:hover
+        transform: scale(.95)
+    .footer-instagram-wrapper
+      background-image: url('../img/icons/instagram.png')
+    .footer-linkedin-wrapper
+      background-image: url('../img/icons/linkedin.png')
+    .footer-github-wrapper
+      background-image: url('../img/icons/github.png')
+    .footer-email-wrapper
+        background-image: url('../img/icons/email.png')
+  .footer-email
+    transition: all 0.2s ease-in
+    font-size: $font-stack
+    font-size: 1em
+    color: $secondary
+    &:hover
+      color: $primary
+  .thank-you-jekyll
+    padding-top: 30px
+    transition: all 0.2s ease-in
+    font-size: $font-stack
+    font-size: .575em
+    color: $secondary
+input
+  border-radius: 0
+  outline: none
