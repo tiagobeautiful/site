@@ -21,23 +21,7 @@ theme: minima
 title: Tiago Lino Bello
 email: tiago.bello1@hotmail.com
 email_lactec: tiago.bello@lactec.org.br
-description: >- # this means to ignore newlines until "baseurl:"
-  Hello there! I'm Tiago Lino Bello, a PhD student at Numerical Methods in Engineering
-  Graduate Program (PPGMNE) from the Federal Univeristy of Paraná since 2019, under
-  the supervision of PhD Luiz Carlos Matioli. I got licensed degree in Mathematics at the State University
-  of Paraná (UNESPAR) at 2017 and a Master degree in Numerical Methods in Engineering at Federal
-  University of Paraná at 2019.
-
-  Right now, I am member of the following research groups: Grupo de Pesquisa em Matemática
-  Pura e Aplicada (UNESPAR) and LYNX Research Group.
-
-  I and very interested about topics involving optimization (OPT), operational research (OR)
-  and statistical learning (SL) methods, which are all the topics I am working right now
-  for my thesis.
-
-  If you are interested, check my CV for more =).
-
-baseurl: "/site" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" #"http://tiagobeautiful.com" # the base hostname & protocol for your site, e.g. http://example.com
 #github_username:  tiagobeautiful
 instagram_path: https://www.instagram.com/tiagobeautiful
