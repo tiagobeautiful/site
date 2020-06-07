@@ -17,6 +17,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+theme: minima
 title: Tiago Lino Bello
 email: tiago.bello1@hotmail.com
 email_lactec: tiago.bello@lactec.org.br
