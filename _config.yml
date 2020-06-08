@@ -21,6 +21,8 @@ theme: minima
 title: Tiago Lino Bello
 email: tiago.bello1@hotmail.com
 email_lactec: tiago.bello@lactec.org.br
+stackoverflow_path: https://stackoverflow.com/users/13702985/tiago-l-bello
+
 description: >- # this means to ignore newlines until "baseurl:"
   Hello there! I'm Tiago Lino Bello, a PhD student at Numerical Methods in Engineering
   Graduate Program (PPGMNE) from the Federal Univeristy of Paraná since 2019, under
