@@ -79,7 +79,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  jekyll (~> 4.1.0)
+  jekyll (~> 4.2.2)
   jekyll-autoprefixer
   jekyll-feed (~> 0.12)
   tzinfo (~> 1.2)
