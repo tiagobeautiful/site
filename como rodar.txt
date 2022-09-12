@@ -1,0 +1,3 @@
+cmd
+cd pasta
+bundle exec jekyll serve --watch --baseurl ''
